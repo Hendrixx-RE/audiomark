@@ -1,6 +1,6 @@
 # RISC-V AudioMark Challenge: Q15 AXPY Optimization
 
-This repository contains a fully verified, Vector-Length Agnostic (VLA) implementation of the Q15 AXPY kernel ($y = \text{sat}(a + \alpha \cdot b)$) using RISC-V Vector (RVV) intrinsics.
+This repository contains a fully verified, Vector-Length Agnostic (VLA) implementation of the Q15 AXPY kernel  using RISC-V Vector (RVV) intrinsics.
 
 ## 1. Design Choices
 The implementation prioritizes **numerical accuracy** and **architectural portability** through the following design decisions:
